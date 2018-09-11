@@ -2,6 +2,7 @@
 
 public class Heure {
 	
+	// Attributs
 	private int heures ;
 	private int minutes ;
 	
@@ -19,5 +20,13 @@ public class Heure {
 		else {
 			this.minutes = minutes ;
 		}
+	}
+	
+	public int getHeures() {
+		return heures;
+	}
+	
+	public int getMinutes() {
+		return minutes;
 	}
 }
